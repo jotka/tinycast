@@ -40,6 +40,12 @@
             "value" : "Tinycast는 사용자가 직접 실행하는 시스템 동작을 수행할 때 자동화를 사용합니다."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast używa automatyzacji do wykonywania czynności systemowych, które jawnie uruchamiasz."
+          }
+        },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tinycast는 Bluetooth 전환 동작을 실행할 때에만 Bluetooth에 접근합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast używa dostępu do Bluetooth tylko wtedy, gdy uruchamiasz czynność Przełącz Bluetooth."
           }
         },
         "pt" : {
@@ -158,6 +170,12 @@
             "value" : "Tinycast는 일정을 표시하고 회의에 참여할 수 있도록 이벤트에 접근합니다."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast korzysta z twoich wydarzeń, aby pokazywać harmonogram i umożliwiać dołączanie do spotkań."
+          }
+        },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
@@ -215,6 +233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tinycast는 자신의 모습을 확인하고 사진을 찍어 클립보드에 복사할 수 있도록 카메라 미리보기를 표시합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast pokazuje podgląd z kamery, abyś mógł się sprawdzić, i robi zdjęcie do schowka."
           }
         },
         "pt" : {
@@ -276,6 +300,12 @@
             "value" : "Tinycast는 받아쓰기를 사용하는 동안에만 오디오를 녹음하여 Mac에서 텍스트로 변환합니다."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast nagrywa dźwięk tylko podczas dyktowania, aby przetranskrybować go na Macu."
+          }
+        },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
@@ -335,6 +365,12 @@
             "value" : "Tinycast는 사용자가 실행하는 확장 프로그램이 미리 알림을 읽고 편집할 수 있게 합니다."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinycast pozwala uruchamianym rozszerzeniom odczytywać i edytować twoje przypomnienia."
+          }
+        },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tinycast 백업"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopia zapasowa Tinycast"
           }
         },
         "pt" : {

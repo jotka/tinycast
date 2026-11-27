@@ -4385,6 +4385,7 @@
 				fr,
 				ja,
 				ko,
+				pl,
 				pt,
 				ru,
 				"zh-Hans",

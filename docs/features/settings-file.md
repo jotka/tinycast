@@ -122,21 +122,21 @@ because the app rewrites the file.
 An enum is its raw value, an unset optional is `null`, and a number with a unit names it in the key.
 Where a number has a special case, the case is a word:
 
-| Key                                     | Values                                                                      |
-| --------------------------------------- | --------------------------------------------------------------------------- |
-| `general.language`                      | `"en"`, `"de"`, `"es"`, `"fr"`, `"ja"`, `"ko"`, `"pt"`, `"ru"`, `"zh-Hans"` |
-| `clipboard.retentionDays`               | 1, 7, 30, 90, 180, 365, `"forever"`                                         |
-| `ai.retentionDays`                      | 7, 30, 90, `"forever"`                                                      |
-| `ai.newChatAfterMinutes`                | 2, 5, 10, 30, `"never"`                                                     |
-| `ai.toolRounds`                         | 10, 25, 50, 100, `"unlimited"`                                              |
-| `ai.opensTo`                            | `"recent"`, `"newConversation"`                                             |
-| `calendar.launcherLimit`                | 1, 3, 5, `"all"`                                                            |
-| `calendar.span`                         | `"today"`, `"todayAndTomorrow"`, `"nextSevenDays"`                          |
-| `calendar.menuBar`                      | `"disabled"`, `"meetingIcon"`, `"meetingTitle"`                             |
-| `calendar.menuBarUpcomingEvents`        | `"today"`, or 2, 5, 10, 30 minutes before                                   |
-| `calendar.hideCurrentEventAfterMinutes` | `"never"`, 0 (as it starts), 5, 10, 30                                      |
-| `windowManagement.gap`                  | 0 to 64                                                                     |
-| `snippets.folder`, `notes.folder`       | an absolute or `~/` path, or `null` for Application Support                 |
+| Key                                     | Values                                                                              |
+| --------------------------------------- | ----------------------------------------------------------------------------------- |
+| `general.language`                      | `"en"`, `"de"`, `"es"`, `"fr"`, `"ja"`, `"ko"`, `"pl"`, `"pt"`, `"ru"`, `"zh-Hans"` |
+| `clipboard.retentionDays`               | 1, 7, 30, 90, 180, 365, `"forever"`                                                 |
+| `ai.retentionDays`                      | 7, 30, 90, `"forever"`                                                              |
+| `ai.newChatAfterMinutes`                | 2, 5, 10, 30, `"never"`                                                             |
+| `ai.toolRounds`                         | 10, 25, 50, 100, `"unlimited"`                                                      |
+| `ai.opensTo`                            | `"recent"`, `"newConversation"`                                                     |
+| `calendar.launcherLimit`                | 1, 3, 5, `"all"`                                                                    |
+| `calendar.span`                         | `"today"`, `"todayAndTomorrow"`, `"nextSevenDays"`                                  |
+| `calendar.menuBar`                      | `"disabled"`, `"meetingIcon"`, `"meetingTitle"`                                     |
+| `calendar.menuBarUpcomingEvents`        | `"today"`, or 2, 5, 10, 30 minutes before                                           |
+| `calendar.hideCurrentEventAfterMinutes` | `"never"`, 0 (as it starts), 5, 10, 30                                              |
+| `windowManagement.gap`                  | 0 to 64                                                                             |
+| `snippets.folder`, `notes.folder`       | an absolute or `~/` path, or `null` for Application Support                         |
 
 On first launch, `general.language` is set to the primary system language if supported, otherwise
 `"en"`. That explicit choice is saved; later system-language changes do not change it.

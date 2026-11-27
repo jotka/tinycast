@@ -23,6 +23,7 @@ const KEYWORD_LOCALES = {
   fr: "fr",
   ja: "ja",
   ko: "ko",
+  pl: "pl",
   pt: "pt",
   ru: "ru",
   zh: "zh-Hans",

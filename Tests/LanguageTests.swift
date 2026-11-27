@@ -51,7 +51,7 @@ struct LanguageTests {
         check("an unshipped language reads as English", AppLanguage(storedPreferences: ["it"]) == .english)
 
         print("# each choice launches into its own localization")
-        let shipped = ["en", "de", "es", "fr", "ja", "ko", "pt", "ru", "zh-Hans"]
+        let shipped = ["en", "de", "es", "fr", "ja", "ko", "pl", "pt", "ru", "zh-Hans"]
         for language in AppLanguage.allCases {
             check(
                 "\(language.rawValue) resolves to its bundled localization",
@@ -99,6 +99,7 @@ struct LanguageTests {
             "en": ("1 window", "2 windows"), "de": ("1 Fenster", "2 Fenster"),
             "es": ("1 ventana", "2 ventanas"), "fr": ("1 fenêtre", "2 fenêtres"),
             "ja": ("1個のウインドウ", "2個のウインドウ"), "ko": ("윈도우 1개", "윈도우 2개"),
+            "pl": ("1 okno", "2 okna"),
             "pt": ("1 janela", "2 janelas"), "ru": ("1 окно", "2 окна"),
             "zh-Hans": ("1 个窗口", "2 个窗口")
         ]
@@ -110,21 +111,21 @@ struct LanguageTests {
             ("apple-shortcuts-empty", "Nothing here yet.", ["fr": "Aucun raccourci à afficher."]),
             ("snippets-use-default-folder", "Use Default", ["fr": "Utiliser le dossier par défaut"]),
             ("notes-use-default-folder", "Use Default", ["fr": "Utiliser le dossier par défaut"]),
-            ("dictation-model-installed", "Installed", ["fr": "Installé"]),
-            ("dictation-language-auto", "Auto", ["fr": "Détection automatique"]),
+            ("dictation-model-installed", "Installed", ["fr": "Installé", "pl": "Zainstalowany"]),
+            ("dictation-language-auto", "Auto", ["fr": "Détection automatique", "pl": "Automatyczny"]),
             ("ai-installed-tools", "Installed", ["fr": "Outils installés"]),
             ("extensions-installed-section", "Installed", ["fr": "Extensions installées"]),
             ("extensions-install-section", "Install", ["fr": "Installation"]),
-            ("unit-category-time", "Time", ["fr": "Durée"]),
+            ("unit-category-time", "Time", ["fr": "Durée", "pl": "Czas"]),
             ("window-position-center", "Center", ["fr": "Centre"]),
             ("ai-pinned-conversations", "Pinned", ["fr": "Épinglées"]),
             ("ai-system-prompt-on", "On", ["fr": "Activées"]),
             ("ai-system-prompt-off", "Off", ["fr": "Désactivées"]),
-            ("ai-web-search-on", "On", ["fr": "Activée"]),
-            ("ai-web-search-off", "Off", ["fr": "Désactivée"]),
-            ("reasoning-effort-low", "Low", ["es": "Bajo", "pt": "Baixo"]),
-            ("reasoning-effort-medium", "Medium", ["es": "Medio", "fr": "Moyen", "pt": "Médio"]),
-            ("reasoning-effort-high", "High", ["es": "Alto", "fr": "Élevé", "pt": "Alto"]),
+            ("ai-web-search-on", "On", ["fr": "Activée", "pl": "Włączone"]),
+            ("ai-web-search-off", "Off", ["fr": "Désactivée", "pl": "Wyłączone"]),
+            ("reasoning-effort-low", "Low", ["es": "Bajo", "pl": "Niski", "pt": "Baixo"]),
+            ("reasoning-effort-medium", "Medium", ["es": "Medio", "fr": "Moyen", "pl": "Średni", "pt": "Médio"]),
+            ("reasoning-effort-high", "High", ["es": "Alto", "fr": "Élevé", "pl": "Wysoki", "pt": "Alto"]),
             (
                 "emoji-skin-tone-light", "Light",
                 [
@@ -134,8 +135,8 @@ struct LanguageTests {
             (
                 "emoji-skin-tone-medium", "Medium",
                 [
-                    "es": "Medio", "ja": "中間", "ko": "중간 피부색", "pt": "Médio", "ru": "Средний",
-                    "zh-Hans": "中等"
+                    "es": "Medio", "ja": "中間", "ko": "중간 피부색", "pl": "Średni", "pt": "Médio",
+                    "ru": "Средний", "zh-Hans": "中等"
                 ]
             ),
             (

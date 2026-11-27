@@ -9,8 +9,8 @@ Open it with the **Search Emoji & Symbols** command, or with its own global shor
 **Settings → Emoji & Symbols**.
 
 Search matches names and keywords in English. If your Mac's preferred languages include German,
-Spanish, French, Japanese, Korean, Portuguese, Russian or Simplified Chinese, keywords in that
-language work too. English matches still come first.
+Spanish, French, Japanese, Korean, Polish, Portuguese, Russian or Simplified Chinese, keywords in
+that language work too. English matches still come first.
 
 ## Actions
 

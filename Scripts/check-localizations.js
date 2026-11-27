@@ -21,6 +21,7 @@ const LANGUAGES = {
   fr: ["one", "many", "other"],
   ja: ["other"],
   ko: ["other"],
+  pl: ["one", "few", "many", "other"],
   pt: ["one", "many", "other"],
   ru: ["one", "few", "many", "other"],
   "zh-Hans": ["other"],

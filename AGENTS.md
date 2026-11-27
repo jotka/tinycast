@@ -125,7 +125,7 @@ feature's doc, under its own `## Invariants`.
 
 - **User-facing text is localized through `Localizable.xcstrings`**: SwiftUI literals as they are,
   `String(localized:)` wherever text travels as a `String`, one literal per sentence. Run
-  `./Scripts/sync-strings.sh` after changing any, and translate all eight languages in the same change.
+  `./Scripts/sync-strings.sh` after changing any, and translate all nine languages in the same change.
   See [standards.md](docs/standards.md#localization).
 - **Every symbol icon comes from the icon pack.** Settings tabs, system actions and built-in commands
   pair an SF Symbol with an `IconTint` in their catalog; a user-made item keeps its symbol and takes its

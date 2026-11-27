@@ -70,7 +70,7 @@ struct EmojiTests {
                 at: packDirectory, includingPropertiesForKeys: nil)) ?? []
         let available = packs.map { $0.deletingPathExtension().lastPathComponent }
         expect(
-            Set(available) == ["de", "es", "fr", "ja", "ko", "pt", "ru", "zh-Hans"],
+            Set(available) == ["de", "es", "fr", "ja", "ko", "pl", "pt", "ru", "zh-Hans"],
             "keyword packs ship for the supported languages")
         let glyphs = Set(entries.map(\.glyph))
         for pack in packs {
